@@ -16,3 +16,19 @@ p {
 a {
     color:red;
 }
+a:hover{
+	background-color: blue;
+}
+#important:hover{
+	background-color: yellow;
+	font-size: 40px;
+}
+.less:hover{
+	color:blue;
+}
+#hidden{
+	display: none;
+}
+#span_cover:hover + #hidden {
+    display: block;
+}
